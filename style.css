@@ -169,4 +169,34 @@
     transition-delay: 0.4s;
   }
 
+  .ocultar-after{
+    width: 80%;
+    font-size: 11px;
+  }
+
+
+  .carta-despedida{
+    width: 60%;
+    background-color: #f5edd1;
+    margin: auto auto 20px auto;
+    align-items: center;
+    padding: 4px;
+    line-height: 1.4;
+  }
+
+  .carta-despedida p{
+    font-size: 20px;
+
+  }
+
+
+  @media screen and (max-width: 640px) {
+    .carta-despedida {
+      width: 100%; /* Agrega el punto y coma al final */
+    }
+  }
+
+
+
+
 
